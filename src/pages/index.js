@@ -9,7 +9,10 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>Learn to design and code React apps</h1>
-    <p>Welcome to your new Gatsby site.</p>
+    <p>
+      Complete courses about the best tools and design systems. Prototype and
+      build apps with React and Swift.
+    </p>
     <p>Now go build something great.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
