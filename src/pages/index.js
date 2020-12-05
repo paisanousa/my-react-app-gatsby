@@ -13,7 +13,6 @@ const IndexPage = () => (
       Complete courses about the best tools and design systems. Prototype and
       build apps with React and Swift.
     </p>
-    <p>Now go build something great.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
