@@ -18,3 +18,10 @@ a {
   background-size: cover;
   background-position: center;
 }
+
+.HeroGroup {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 150px 50px;
+  text-align: center;
+}
