@@ -31,6 +31,11 @@ a {
   color: white;
   font-size: 60px;
   line-height: 1.2;
+  opacity: 0;
+  animation: HeroAnimation;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .Hero p {
@@ -61,5 +66,16 @@ a {
 
   .Hero p {
     font-size: 24px;
+  }
+}
+
+@keyframes HeroAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
   }
 }
