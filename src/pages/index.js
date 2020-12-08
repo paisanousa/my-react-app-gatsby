@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
+import Card from "../components/Card"
 
 const IndexPage = () => (
   <Layout>
@@ -46,6 +47,14 @@ const IndexPage = () => (
           </path>
         </svg>
       </div>
+    </div>
+    <div className="Cards">
+      <h2>11 courses, more coming</h2>
+      <Card
+        title="React for Designers"
+        text="12 sections"
+        image={require("../images/wallpaper.jpg")}
+      />
     </div>
   </Layout>
 )
