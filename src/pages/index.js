@@ -33,7 +33,7 @@ const SectionCellGroup = styled.div`
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO />
     <div className="Hero">
       <div className="HeroGroup">
         <h1>
