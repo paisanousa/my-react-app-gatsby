@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/Layout"
-import SEO from "../components/SEO"
+import HeadData from "../components/HeadData"
 import Card from "../components/Card"
 import Section from "../components/Section"
 import Wave from "../components/Wave"
@@ -33,7 +33,7 @@ const SectionCellGroup = styled.div`
 
 const IndexPage = () => (
   <Layout>
-    <SEO />
+    <HeadData />
     <div className="Hero">
       <div className="HeroGroup">
         <h1>
