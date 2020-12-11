@@ -6,6 +6,7 @@ import { useStaticData } from "../hooks/use-static-data"
 import Header from "./Header"
 
 import "./Layout.css"
+import Footer from "./Footer"
 
 const Layout = ({ children }) => {
   const { site, allContentfulLink } = useStaticData()
@@ -20,9 +21,7 @@ const Layout = ({ children }) => {
       />
       <Header />
       <main>{children}</main>
-      {allContentfulLink.edges.map(edge => (
-        <a href={edge.node.url}>{edge.node.title}</a>
-      ))}
+      <Footer allContentfulLink={allContentfulLink} />
     </>
   )
 }
